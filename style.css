@@ -1,0 +1,36 @@
+#hungry-icon {
+  width: 50px;
+  margin-left: 20px;
+}
+#hungry-header {
+  color: #ae4b4b;
+}
+#hungry-header:hover{
+  color: #0e7c26;
+}
+
+nav ul li a {
+  margin-left: 5px;
+  color: #ae4b4b;
+}
+nav ul li a:hover{
+  color: #0e7c26;
+}
+input {
+  width: 500px;
+  margin-top: 50px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.food-card-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+.footer {
+  text-align: center;
+}
